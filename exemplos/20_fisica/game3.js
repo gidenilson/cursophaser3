@@ -21,6 +21,10 @@ function create() {
   this.bola = this.physics.add.image(100, 100, 'ball')
   // habilita colisão da bola com o mundo
   this.bola.setCollideWorldBounds()
+  // habilita o disparo do evento de colisão da cola com o mundo
+  this.bola.body.onWorldBounds = true
+  // checa se ouve colisão de algum objeto com o mundo
+  this.physics.world.on('worldbounds', (body) => console.log(body))
   this.cursors = this.input.keyboard.createCursorKeys()
 }
 
