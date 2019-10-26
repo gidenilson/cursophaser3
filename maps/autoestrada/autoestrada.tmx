@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="100" tileheight="100" infinite="0" nextlayerid="3" nextobjectid="2">
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="100" tileheight="100" infinite="0" nextlayerid="3" nextobjectid="12">
  <tileset firstgid="1" name="tiles-rua-02" tilewidth="100" tileheight="100" tilecount="7" columns="7">
   <image source="tiles-rua-02.png" width="700" height="100"/>
  </tileset>
@@ -10,6 +10,36 @@
  </layer>
  <objectgroup id="2" name="posicao" offsetx="-2" offsety="6">
   <object id="1" name="player" x="754" y="1164">
+   <point/>
+  </object>
+  <object id="2" name="esquerda" x="-66" y="136">
+   <point/>
+  </object>
+  <object id="3" name="esquerda" x="-72" y="340">
+   <point/>
+  </object>
+  <object id="4" name="esquerda" x="-70" y="542">
+   <point/>
+  </object>
+  <object id="5" name="esquerda" x="-72" y="734">
+   <point/>
+  </object>
+  <object id="6" name="esquerda" x="-62" y="942">
+   <point/>
+  </object>
+  <object id="7" name="direita" x="1698" y="1040">
+   <point/>
+  </object>
+  <object id="8" name="direita" x="1692" y="832">
+   <point/>
+  </object>
+  <object id="9" name="direita" x="1684" y="650">
+   <point/>
+  </object>
+  <object id="10" name="direita" x="1678" y="436">
+   <point/>
+  </object>
+  <object id="11" name="direita" x="1668" y="240">
    <point/>
   </object>
  </objectgroup>
