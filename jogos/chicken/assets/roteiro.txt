@@ -1,0 +1,11 @@
+Criar o tilemap no Tiled
+Criar as cenas
+Cria classe Mundo
+Criar a classe Carro
+Colocar os carros em um grupo
+Criar a classe Galinha
+Criar a animação da galinha
+Cria classe Colisões
+Cria classe de sons
+Criar a classe HUD
+

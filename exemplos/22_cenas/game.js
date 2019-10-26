@@ -4,7 +4,6 @@ import GameScene from './scenes/GameScene.js'
 import PreloaderScene from './scenes/PreloaderScene.js'
 import BootScene from './scenes/BootScene.js'
 import MenuScene from './scenes/MenuScene.js'
-
 // cria classe game, estendendo de Phaser.Game
 class Game extends Phaser.Game {
   constructor() {
@@ -21,4 +20,4 @@ class Game extends Phaser.Game {
   }
 }
 // instancia Game
-const game = new Game();
+const game = new Game()
