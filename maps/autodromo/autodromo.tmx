@@ -2,6 +2,41 @@
 <map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="100" tileheight="100" infinite="0" nextlayerid="5" nextobjectid="21">
  <tileset firstgid="1" name="tiles-rua-02" tilewidth="100" tileheight="100" tilecount="7" columns="7">
   <image source="tiles-rua-02.png" width="700" height="100"/>
+  <tile id="0">
+   <properties>
+    <property name="colisao" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="colisao" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="colisao" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="colisao" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="colisao" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="colisao" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="colisao" type="bool" value="false"/>
+   </properties>
+  </tile>
  </tileset>
  <layer id="3" name="terreno" width="16" height="12">
   <data encoding="base64">
