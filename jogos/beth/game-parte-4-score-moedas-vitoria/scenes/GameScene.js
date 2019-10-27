@@ -14,7 +14,7 @@ class GameScene extends Phaser.Scene {
     this.sys.game.model.state = 'jogando'
 
 
-    //Cria o mundo e o Milton
+    //Cria o mundo e a Beth
     this.mundo = new Mundo(this)
 
     //cria Beth

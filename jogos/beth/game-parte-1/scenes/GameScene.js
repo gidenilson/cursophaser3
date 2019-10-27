@@ -20,7 +20,7 @@ class GameScene extends Phaser.Scene {
   }
   create() {
 
-    //Cria o mundo e o Milton
+    //Cria o mundo e a Beth
     this.mundo = new Mundo(this)
     this.beth = new Beth(this, 400, 300, 'beth')
 
