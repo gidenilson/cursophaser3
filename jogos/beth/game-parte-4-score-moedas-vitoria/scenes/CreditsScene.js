@@ -12,8 +12,8 @@ class CreditsScene extends Phaser.Scene {
     this.add.image(width / 2, height / 2 - 50, 'credits').setOrigin(0.5)
 
     //botão menu
-    this.btnCreditos = new Botao(this, width / 2, height / 2 + 200, '[menu]')
-    this.btnCreditos.target = 'Menu'
+    this.btnMenu = new Botao(this, width / 2, height / 2 + 200, '[menu]')
+    this.btnMenu.target = 'Menu'
   }
 }
 
