@@ -22,26 +22,26 @@ class Beth extends Phaser.GameObjects.Sprite {
         this.body.setVelocity(-160, 0)
         this.anims.play('beth-esquerda-andando', true);
         this.setData('direcao', 'esquerda');
-        //tocaPassos()
         break;
+
       case this.cursors.right.isDown:
         this.body.setVelocity(160, 0)
         this.anims.play('beth-direita-andando', true);
         this.setData('direcao', 'direita');
-        //tocaPassos();
         break;
+
       case this.cursors.up.isDown:
         this.body.setVelocity(0, -160)
         this.anims.play('beth-costas-andando', true);
         this.setData('direcao', 'costas');
-        //tocaPassos();
         break;
+
       case this.cursors.down.isDown:
         this.body.setVelocity(0, 160)
         this.anims.play('beth-frente-andando', true);
         this.setData('direcao', 'frente');
-        //tocaPassos();
         break;
+
       default:
         this.body.setVelocity(0, 0);
         if (this.getData('direcao') == 'frente') {
@@ -142,5 +142,4 @@ class Beth extends Phaser.GameObjects.Sprite {
 
   }
 }
-
 export default Beth
