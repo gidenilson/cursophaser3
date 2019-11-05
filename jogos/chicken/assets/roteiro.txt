@@ -9,3 +9,26 @@ Cria classe Colisões
 Cria classe de sons
 Criar a classe HUD
 
+classes/Mundo.js
+Montagem do mapa
+Posição dos veículos
+
+classes/Chicken.js
+
+
+classes/Vehicle.js
+Textura
+Corpo da física
+Direção
+Velocidade
+X
+Y
+
+classes/Vehicles.js
+Cria um grupo de física
+Cria veículos e adiciona no grupo
+runChildUpdate = true
+
+Gerenciador de responsabilidade
+ResponsabilidadeVitória
+ResponsabilidadeMorreu

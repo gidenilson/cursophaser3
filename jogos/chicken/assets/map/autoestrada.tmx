@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.5" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="100" tileheight="100" infinite="0" nextlayerid="3" nextobjectid="233">
+ <tileset firstgid="1" name="autoestrada" tilewidth="100" tileheight="100" tilecount="7" columns="7">
+  <image source="tiles-rua-02.png" width="700" height="100"/>
+ </tileset>
+ <layer id="1" name="estrada" width="16" height="12">
+  <data encoding="base64">
+   BgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAA
+  </data>
+ </layer>
+ <objectgroup id="2" name="posicao" offsetx="-2" offsety="6">
+  <object id="1" name="player" x="800" y="1164">
+   <point/>
+  </object>
+  <object id="12" name="arrival" x="800" y="40">
+   <point/>
+  </object>
+  <object id="13" name="ovo" x="106" y="114">
+   <point/>
+  </object>
+  <object id="14" name="ovo" x="230" y="106">
+   <point/>
+  </object>
+  <object id="15" name="ovo" x="352" y="106">
+   <point/>
+  </object>
+  <object id="16" name="ovo" x="448" y="112">
+   <point/>
+  </object>
+  <object id="17" name="ovo" x="556" y="108">
+   <point/>
+  </object>
+  <object id="18" name="ovo" x="668" y="114">
+   <point/>
+  </object>
+  <object id="19" name="ovo" x="652" y="194">
+   <point/>
+  </object>
+  <object id="20" name="ovo" x="554" y="196">
+   <point/>
+  </object>
+  <object id="21" name="ovo" x="452" y="204">
+   <point/>
+  </object>
+  <object id="22" name="ovo" x="350" y="206">
+   <point/>
+  </object>
+  <object id="23" name="ovo" x="262" y="198">
+   <point/>
+  </object>
+  <object id="24" name="ovo" x="152" y="202">
+   <point/>
+  </object>
+  <object id="25" name="ovo" x="56" y="204">
+   <point/>
+  </object>
+  <object id="26" name="ovo" x="40" y="110">
+   <point/>
+  </object>
+  <object id="27" name="ovo" x="174" y="114">
+   <point/>
+  </object>
+  <object id="28" name="ovo" x="116" y="322">
+   <point/>
+  </object>
+  <object id="29" name="ovo" x="240" y="314">
+   <point/>
+  </object>
+  <object id="30" name="ovo" x="362" y="314">
+   <point/>
+  </object>
+  <object id="31" name="ovo" x="458" y="320">
+   <point/>
+  </object>
+  <object id="32" name="ovo" x="566" y="316">
+   <point/>
+  </object>
+  <object id="33" name="ovo" x="678" y="322">
+   <point/>
+  </object>
+  <object id="34" name="ovo" x="662" y="402">
+   <point/>
+  </object>
+  <object id="35" name="ovo" x="564" y="404">
+   <point/>
+  </object>
+  <object id="36" name="ovo" x="462" y="412">
+   <point/>
+  </object>
+  <object id="37" name="ovo" x="360" y="414">
+   <point/>
+  </object>
+  <object id="38" name="ovo" x="272" y="406">
+   <point/>
+  </object>
+  <object id="39" name="ovo" x="162" y="410">
+   <point/>
+  </object>
+  <object id="40" name="ovo" x="66" y="412">
+   <point/>
+  </object>
+  <object id="41" name="ovo" x="50" y="318">
+   <point/>
+  </object>
+  <object id="42" name="ovo" x="184" y="322">
+   <point/>
+  </object>
+  <object id="43" name="ovo" x="112" y="516">
+   <point/>
+  </object>
+  <object id="44" name="ovo" x="236" y="508">
+   <point/>
+  </object>
+  <object id="45" name="ovo" x="358" y="508">
+   <point/>
+  </object>
+  <object id="46" name="ovo" x="454" y="514">
+   <point/>
+  </object>
+  <object id="47" name="ovo" x="562" y="510">
+   <point/>
+  </object>
+  <object id="48" name="ovo" x="674" y="516">
+   <point/>
+  </object>
+  <object id="49" name="ovo" x="658" y="596">
+   <point/>
+  </object>
+  <object id="50" name="ovo" x="560" y="598">
+   <point/>
+  </object>
+  <object id="51" name="ovo" x="458" y="606">
+   <point/>
+  </object>
+  <object id="52" name="ovo" x="356" y="608">
+   <point/>
+  </object>
+  <object id="53" name="ovo" x="268" y="600">
+   <point/>
+  </object>
+  <object id="54" name="ovo" x="158" y="604">
+   <point/>
+  </object>
+  <object id="55" name="ovo" x="62" y="606">
+   <point/>
+  </object>
+  <object id="56" name="ovo" x="46" y="512">
+   <point/>
+  </object>
+  <object id="57" name="ovo" x="180" y="516">
+   <point/>
+  </object>
+  <object id="58" name="ovo" x="122" y="724">
+   <point/>
+  </object>
+  <object id="59" name="ovo" x="246" y="716">
+   <point/>
+  </object>
+  <object id="60" name="ovo" x="368" y="716">
+   <point/>
+  </object>
+  <object id="61" name="ovo" x="464" y="722">
+   <point/>
+  </object>
+  <object id="62" name="ovo" x="572" y="718">
+   <point/>
+  </object>
+  <object id="63" name="ovo" x="684" y="724">
+   <point/>
+  </object>
+  <object id="64" name="ovo" x="668" y="804">
+   <point/>
+  </object>
+  <object id="65" name="ovo" x="570" y="806">
+   <point/>
+  </object>
+  <object id="66" name="ovo" x="468" y="814">
+   <point/>
+  </object>
+  <object id="67" name="ovo" x="366" y="816">
+   <point/>
+  </object>
+  <object id="68" name="ovo" x="278" y="808">
+   <point/>
+  </object>
+  <object id="69" name="ovo" x="168" y="812">
+   <point/>
+  </object>
+  <object id="70" name="ovo" x="72" y="814">
+   <point/>
+  </object>
+  <object id="71" name="ovo" x="56" y="720">
+   <point/>
+  </object>
+  <object id="72" name="ovo" x="190" y="724">
+   <point/>
+  </object>
+  <object id="133" name="ovo" x="958" y="120">
+   <point/>
+  </object>
+  <object id="134" name="ovo" x="1082" y="112">
+   <point/>
+  </object>
+  <object id="135" name="ovo" x="1204" y="112">
+   <point/>
+  </object>
+  <object id="136" name="ovo" x="1300" y="118">
+   <point/>
+  </object>
+  <object id="137" name="ovo" x="1408" y="114">
+   <point/>
+  </object>
+  <object id="138" name="ovo" x="1520" y="120">
+   <point/>
+  </object>
+  <object id="139" name="ovo" x="1504" y="200">
+   <point/>
+  </object>
+  <object id="140" name="ovo" x="1406" y="202">
+   <point/>
+  </object>
+  <object id="141" name="ovo" x="1304" y="210">
+   <point/>
+  </object>
+  <object id="142" name="ovo" x="1202" y="212">
+   <point/>
+  </object>
+  <object id="143" name="ovo" x="1114" y="204">
+   <point/>
+  </object>
+  <object id="144" name="ovo" x="1004" y="208">
+   <point/>
+  </object>
+  <object id="145" name="ovo" x="908" y="210">
+   <point/>
+  </object>
+  <object id="146" name="ovo" x="892" y="116">
+   <point/>
+  </object>
+  <object id="147" name="ovo" x="1026" y="120">
+   <point/>
+  </object>
+  <object id="148" name="ovo" x="968" y="328">
+   <point/>
+  </object>
+  <object id="149" name="ovo" x="1092" y="320">
+   <point/>
+  </object>
+  <object id="150" name="ovo" x="1214" y="320">
+   <point/>
+  </object>
+  <object id="151" name="ovo" x="1310" y="326">
+   <point/>
+  </object>
+  <object id="152" name="ovo" x="1418" y="322">
+   <point/>
+  </object>
+  <object id="153" name="ovo" x="1530" y="328">
+   <point/>
+  </object>
+  <object id="154" name="ovo" x="1514" y="408">
+   <point/>
+  </object>
+  <object id="155" name="ovo" x="1416" y="410">
+   <point/>
+  </object>
+  <object id="156" name="ovo" x="1314" y="418">
+   <point/>
+  </object>
+  <object id="157" name="ovo" x="1212" y="420">
+   <point/>
+  </object>
+  <object id="158" name="ovo" x="1124" y="412">
+   <point/>
+  </object>
+  <object id="159" name="ovo" x="1014" y="416">
+   <point/>
+  </object>
+  <object id="160" name="ovo" x="918" y="418">
+   <point/>
+  </object>
+  <object id="161" name="ovo" x="902" y="324">
+   <point/>
+  </object>
+  <object id="162" name="ovo" x="1036" y="328">
+   <point/>
+  </object>
+  <object id="163" name="ovo" x="964" y="522">
+   <point/>
+  </object>
+  <object id="164" name="ovo" x="1088" y="514">
+   <point/>
+  </object>
+  <object id="165" name="ovo" x="1210" y="514">
+   <point/>
+  </object>
+  <object id="166" name="ovo" x="1306" y="520">
+   <point/>
+  </object>
+  <object id="167" name="ovo" x="1414" y="516">
+   <point/>
+  </object>
+  <object id="168" name="ovo" x="1526" y="522">
+   <point/>
+  </object>
+  <object id="169" name="ovo" x="1510" y="602">
+   <point/>
+  </object>
+  <object id="170" name="ovo" x="1412" y="604">
+   <point/>
+  </object>
+  <object id="171" name="ovo" x="1310" y="612">
+   <point/>
+  </object>
+  <object id="172" name="ovo" x="1208" y="614">
+   <point/>
+  </object>
+  <object id="173" name="ovo" x="1120" y="606">
+   <point/>
+  </object>
+  <object id="174" name="ovo" x="1010" y="610">
+   <point/>
+  </object>
+  <object id="175" name="ovo" x="914" y="612">
+   <point/>
+  </object>
+  <object id="176" name="ovo" x="898" y="518">
+   <point/>
+  </object>
+  <object id="177" name="ovo" x="1032" y="522">
+   <point/>
+  </object>
+  <object id="178" name="ovo" x="974" y="730">
+   <point/>
+  </object>
+  <object id="179" name="ovo" x="1098" y="722">
+   <point/>
+  </object>
+  <object id="180" name="ovo" x="1220" y="722">
+   <point/>
+  </object>
+  <object id="181" name="ovo" x="1316" y="728">
+   <point/>
+  </object>
+  <object id="182" name="ovo" x="1424" y="724">
+   <point/>
+  </object>
+  <object id="183" name="ovo" x="1536" y="730">
+   <point/>
+  </object>
+  <object id="184" name="ovo" x="1520" y="810">
+   <point/>
+  </object>
+  <object id="185" name="ovo" x="1422" y="812">
+   <point/>
+  </object>
+  <object id="186" name="ovo" x="1320" y="820">
+   <point/>
+  </object>
+  <object id="187" name="ovo" x="1218" y="822">
+   <point/>
+  </object>
+  <object id="188" name="ovo" x="1130" y="814">
+   <point/>
+  </object>
+  <object id="189" name="ovo" x="1020" y="818">
+   <point/>
+  </object>
+  <object id="190" name="ovo" x="924" y="820">
+   <point/>
+  </object>
+  <object id="191" name="ovo" x="908" y="726">
+   <point/>
+  </object>
+  <object id="192" name="ovo" x="1042" y="730">
+   <point/>
+  </object>
+  <object id="193" name="ovo" x="124" y="924">
+   <point/>
+  </object>
+  <object id="194" name="ovo" x="248" y="916">
+   <point/>
+  </object>
+  <object id="195" name="ovo" x="370" y="916">
+   <point/>
+  </object>
+  <object id="196" name="ovo" x="466" y="922">
+   <point/>
+  </object>
+  <object id="197" name="ovo" x="574" y="918">
+   <point/>
+  </object>
+  <object id="198" name="ovo" x="686" y="924">
+   <point/>
+  </object>
+  <object id="199" name="ovo" x="670" y="1004">
+   <point/>
+  </object>
+  <object id="200" name="ovo" x="572" y="1006">
+   <point/>
+  </object>
+  <object id="201" name="ovo" x="470" y="1014">
+   <point/>
+  </object>
+  <object id="202" name="ovo" x="368" y="1016">
+   <point/>
+  </object>
+  <object id="203" name="ovo" x="280" y="1008">
+   <point/>
+  </object>
+  <object id="204" name="ovo" x="170" y="1012">
+   <point/>
+  </object>
+  <object id="205" name="ovo" x="74" y="1014">
+   <point/>
+  </object>
+  <object id="206" name="ovo" x="58" y="920">
+   <point/>
+  </object>
+  <object id="207" name="ovo" x="192" y="924">
+   <point/>
+  </object>
+  <object id="208" name="ovo" x="1000" y="920">
+   <point/>
+  </object>
+  <object id="209" name="ovo" x="1124" y="912">
+   <point/>
+  </object>
+  <object id="210" name="ovo" x="1246" y="912">
+   <point/>
+  </object>
+  <object id="211" name="ovo" x="1342" y="918">
+   <point/>
+  </object>
+  <object id="212" name="ovo" x="1450" y="914">
+   <point/>
+  </object>
+  <object id="213" name="ovo" x="1562" y="920">
+   <point/>
+  </object>
+  <object id="214" name="ovo" x="1546" y="1000">
+   <point/>
+  </object>
+  <object id="215" name="ovo" x="1448" y="1002">
+   <point/>
+  </object>
+  <object id="216" name="ovo" x="1346" y="1010">
+   <point/>
+  </object>
+  <object id="217" name="ovo" x="1244" y="1012">
+   <point/>
+  </object>
+  <object id="218" name="ovo" x="1156" y="1004">
+   <point/>
+  </object>
+  <object id="219" name="ovo" x="1046" y="1008">
+   <point/>
+  </object>
+  <object id="220" name="ovo" x="950" y="1010">
+   <point/>
+  </object>
+  <object id="221" name="ovo" x="934" y="916">
+   <point/>
+  </object>
+  <object id="222" name="ovo" x="1068" y="920">
+   <point/>
+  </object>
+  <object id="223" name="ovo" x="780" y="122">
+   <point/>
+  </object>
+  <object id="224" name="ovo" x="764" y="202">
+   <point/>
+  </object>
+  <object id="225" name="ovo" x="790" y="330">
+   <point/>
+  </object>
+  <object id="226" name="ovo" x="774" y="410">
+   <point/>
+  </object>
+  <object id="227" name="ovo" x="786" y="524">
+   <point/>
+  </object>
+  <object id="228" name="ovo" x="770" y="604">
+   <point/>
+  </object>
+  <object id="229" name="ovo" x="796" y="732">
+   <point/>
+  </object>
+  <object id="230" name="ovo" x="780" y="812">
+   <point/>
+  </object>
+  <object id="231" name="ovo" x="798" y="932">
+   <point/>
+  </object>
+  <object id="232" name="ovo" x="782" y="1012">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

@@ -2,35 +2,22 @@ class Inimigo extends Phaser.GameObjects.Sprite {
   constructor(scene, x, y, texture) {
     super(scene, x, y, texture)
     this.scene = scene
-
     this.scene.add.existing(this)
     this.scene.physics.world.enableBody(this, 0)
     this.body.setSize(25, 10)
     this.body.setOffset(12, 30)
     this.depth = 3
     this.criaAnimacoes()
-
-
   }
   update() {
-
-
-    let vectorB = new Phaser.Math.Vector2(this.scene.beth)
-    let vectorE = new Phaser.Math.Vector2(this);
-
     // persegue
     this.scene.physics.moveToObject(this, this.scene.beth, 100)
 
-
-    /////////////////////////////////
-    // define a animação do inimigo//
-    /////////////////////////////////
-
-
-    let animacao = this.animacao;
-
+    /*
+     * bloco que define a animação do inimigo
+     */
+    let animacao = this.animacao
     let angle = 180 * this.body.velocity.angle() / 3.14
-
     if (angle >= 0 && angle < 45) {
       animacao = 'inimigo-direita-andando'
     } else if (angle >= 45 && angle < 135) {

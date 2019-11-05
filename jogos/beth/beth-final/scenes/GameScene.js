@@ -4,7 +4,7 @@ import Inimigo from '../classes/Inimigo.js'
 import GrupoMoedas from '../classes/GrupoMoedas.js'
 import Gui from '../classes/Gui.js'
 import Colisoes from '../classes/Colisoes.js'
-import Estados from '../classes/Estados.js'
+import Responsabilidades from '../classes/Responsabilidades.js'
 import Audio from '../classes/Audio.js'
 class GameScene extends Phaser.Scene {
   constructor() {
@@ -36,8 +36,8 @@ class GameScene extends Phaser.Scene {
     //cria Gui
     this.gui = new Gui(this)
 
-    //cria geranciador de Estados
-    this.estados = new Estados(this)
+    //cria geranciador de responsabilidades
+    this.responsabilidades = new Responsabilidades(this)
 
     //Posiciona Beth na scene
     this.beth.x = this.mundo.posicaoInicial.x
@@ -58,8 +58,8 @@ class GameScene extends Phaser.Scene {
 
     //gerenciador de colisões
     this.colisoes = new Colisoes(this)
-    this.colisoes.on('acabou_moedas', () => this.estados.executa('vitoria'))
-    this.colisoes.on('pegou', () => this.estados.executa('morreu'))
+    this.colisoes.on('acabou_moedas', () => this.responsabilidades.executa('vitoria'))
+    this.colisoes.on('pegou', () => this.responsabilidades.executa('morreu'))
 
     //colisão com GrupoMoedas
     this.physics.add.overlap(this.grupoMoedas, this.beth,

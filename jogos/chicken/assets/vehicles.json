@@ -1,0 +1,124 @@
+{
+	"textures": [
+		{
+			"image": "vehicles.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 375,
+				"h": 32
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "car-truck5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 109,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 32
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 109,
+						"h": 32
+					}
+				},
+				{
+					"filename": "car-truck4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 32
+					},
+					"frame": {
+						"x": 109,
+						"y": 0,
+						"w": 75,
+						"h": 32
+					}
+				},
+				{
+					"filename": "car-truck2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 69,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 69,
+						"h": 28
+					},
+					"frame": {
+						"x": 184,
+						"y": 0,
+						"w": 69,
+						"h": 28
+					}
+				},
+				{
+					"filename": "car-truck3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 69,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 68,
+						"h": 28
+					},
+					"frame": {
+						"x": 253,
+						"y": 0,
+						"w": 68,
+						"h": 28
+					}
+				},
+				{
+					"filename": "car-truck1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 54,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 54,
+						"h": 28
+					},
+					"frame": {
+						"x": 321,
+						"y": 0,
+						"w": 54,
+						"h": 28
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}
