@@ -1,8 +1,7 @@
 class MenuScene extends Phaser.Scene {
   constructor() {
-    super('Menu');
+    super('Menu')
   }
-
 
   create() {
     // pega dimensões da tela
@@ -12,26 +11,18 @@ class MenuScene extends Phaser.Scene {
     // adiciona o logo
     this.add.image(width / 2, height / 2 - 150, "logo")
 
-    // botao start
-    this.txtStart = this.add.text(width / 2, height / 2 + 50, '[start]', {
-      fontFamily: 'BigShoulders',
-      color: '#f0ce00',
-      fontSize: 60
-    }).setOrigin(0.5).setStroke('#000', 4)
-
-    this.txtStart.on('pointerdown', () => this.scene.start('Game')).setInteractive({
-      useHandCursor: true
-    })
-
-    // botao Credits
-    this.txtCredits = this.add.text(width / 2, height / 2 + 150, '[credits]', {
-      fontFamily: 'BigShoulders',
-      color: '#f0ce00',
-      fontSize: 60
-    }).setOrigin(0.5).setStroke('#000', 4)
-
-    this.txtCredits.on('pointerdown', () => this.scene.start('Credits')).setInteractive({
-      useHandCursor: true
-    })
+    // Botão start
+    // (é um texto normal, com a interatividade habilitada)
+    this.txtStart = this.add.text(width / 2, height / 2 + 50,
+      '[start]', {
+        fontFamily: 'BigShoulders',
+        color: '#f0ce00',
+        fontSize: 60
+      }).setOrigin(0.5).setStroke('#000', 4)
+    // Habilita a interatividade
+    this.txtStart.setInteractive()
+    // Escuta o evento 'pointerdown' para passar o controle
+    // para a scene Game.
+    this.txtStart.on('pointerdown', () => this.scene.start('Game'))
   }
 }

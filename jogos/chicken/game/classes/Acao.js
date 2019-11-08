@@ -29,7 +29,5 @@ export default class Acao {
     this.ovos.reset()
     this.chicken.reset()
     this.gui.update()
-
-
   }
 }

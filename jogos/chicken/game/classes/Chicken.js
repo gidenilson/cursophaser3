@@ -8,7 +8,6 @@ export default class Chicken extends Phaser.GameObjects.Sprite {
     this.scene.physics.world.enableBody(this, 0)
     this.body.setCollideWorldBounds()
     this.body.setSize(20, 20)
-
     this.depth = 10
     this.cursors = this.scene.input.keyboard.createCursorKeys()
     this.audio = scene.sys.game.audio;

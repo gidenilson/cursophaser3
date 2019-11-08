@@ -1,10 +1,8 @@
 class CreditsScene extends Phaser.Scene {
   constructor() {
-    super('Credits');
+    super('Credits')
   }
-
-
   create() {
-
+    //POR FAZER
   }
 }

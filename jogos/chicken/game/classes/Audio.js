@@ -1,6 +1,5 @@
-class Audio {
+export default class Audio {
   constructor(scene) {
-    this.morte = scene.sound.add('morte')
     this.jogo = scene.sound.add('trilha-jogo')
     this.espera = scene.sound.add('trilha-espera')
     this.passos = scene.sound.add('passos')
@@ -10,5 +9,3 @@ class Audio {
     this.vitoria = scene.sound.add('vitoria')
   }
 }
-
-export default Audio

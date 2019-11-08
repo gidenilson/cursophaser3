@@ -10,7 +10,6 @@ class Death extends Phaser.GameObjects.Sprite {
   play(x, y) {
     this.setPosition(x, y)
     this.anims.play('morrendo')
-
   }
   animsCreate() {
     this.scene.anims.create({
@@ -22,5 +21,4 @@ class Death extends Phaser.GameObjects.Sprite {
       frameRate: 20
     })
   }
-
 }

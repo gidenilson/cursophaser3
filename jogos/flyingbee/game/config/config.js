@@ -1,3 +1,10 @@
+/* pathTime: 4 segundos para percorer o path.
+   qTime: fator de divisão para diminuir o
+   pathTime em cada rodada.
+   score: pontuação.
+   timer: Tempo para pegar a abelha.
+   state: estado atual do game.
+*/
 const gameConfig = {
   pathTime: 4000,
   qTime: 1.05,

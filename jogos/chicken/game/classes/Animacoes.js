@@ -1,7 +1,7 @@
 export default class Animacoes {
   constructor(scene) {
 
-    // frente
+    // frente 
     scene.anims.create({
       key: 'frente',
       frames: [{

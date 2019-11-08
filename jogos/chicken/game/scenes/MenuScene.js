@@ -28,9 +28,9 @@ class MenuScene extends Phaser.Scene {
     this.btnIniciar.target = 'Game'
 
     //botão créditos
-    this.btnIniciar = new Button(this, width / 2, height / 2 + 50,
+    this.btnCreditos = new Button(this, width / 2, height / 2 + 50,
       'botoes', 'credits')
-    this.btnIniciar.target = 'Credits'
+    this.btnCreditos.target = 'Credits'
   }
 }
 

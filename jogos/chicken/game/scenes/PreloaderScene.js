@@ -1,15 +1,12 @@
 import Animacoes from '../classes/Animacoes.js'
-class PreloaderScene extends Phaser.Scene {
+export default class PreloaderScene extends Phaser.Scene {
   constructor() {
     super('Preloader');
   }
 
   preload() {
 
-    /**
-     * carrega os assets do jogo
-     */
-    //carrega a imagem dos tiles
+    //carrega a imagem do tileset
     this.load.image('tiles', 'assets/map/tiles-rua-02.png')
 
     //carrega o mapa
@@ -25,10 +22,12 @@ class PreloaderScene extends Phaser.Scene {
     this.load.image('ovo', 'assets/img/egg.png')
 
     //carrega textureatlas dos botoes
-    this.load.atlas('botoes', 'assets/atlas/botoes.png', 'assets/atlas/botoes.json')
+    this.load.atlas('botoes', 'assets/atlas/botoes.png',
+      'assets/atlas/botoes.json')
 
     //carrega textureatlas dos veículos
-    this.load.atlas('vehicles', 'assets/atlas/vehicles.png', 'assets/atlas/vehicles.json')
+    this.load.atlas('vehicles', 'assets/atlas/vehicles.png',
+      'assets/atlas/vehicles.json')
 
     //carrega sons
     this.load.audio('trilha-jogo', [
@@ -43,11 +42,6 @@ class PreloaderScene extends Phaser.Scene {
     this.load.audio('passos', [
       'assets/audio/passos.ogg',
       'assets/audio/passos.mp3'
-    ])
-
-    this.load.audio('buzina', [
-      'assets/audio/horn.ogg',
-      'assets/audio/horn.mp3'
     ])
 
     this.load.audio('ovo', [
@@ -126,5 +120,3 @@ class PreloaderScene extends Phaser.Scene {
     this.time.delayedCall(500, () => this.scene.start('Menu'), [], this)
   }
 }
-
-export default PreloaderScene

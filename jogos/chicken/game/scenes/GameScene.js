@@ -5,7 +5,7 @@ import EggsGroup from '../classes/EggsGroup.js'
 import Colisoes from '../classes/Colisoes.js'
 import Acao from '../classes/Acao.js'
 import Gui from '../classes/Gui.js'
-class GameScene extends Phaser.Scene {
+export default class GameScene extends Phaser.Scene {
   constructor() {
     super('Game');
   }
@@ -46,15 +46,13 @@ class GameScene extends Phaser.Scene {
     this.chicken.on('chegou', () => this.acao.chegou())
 
     // cria Colisoes
-    this.colisoes = new Colisoes(this, this.chicken, this.ovos, this.veiculos)
-
+    this.colisoes = new Colisoes(this, this.chicken, this.ovos,
+      this.veiculos)
 
     // escuta eventos
     this.colisoes.on('pegou_ovo', () => this.acao.pegouOvo())
     this.colisoes.on('pegou_tudo', () => this.acao.pegouTudo())
     this.colisoes.on('atropelou', () => this.acao.atropelou())
-
-
   }
 
   update() {
@@ -62,5 +60,3 @@ class GameScene extends Phaser.Scene {
   }
 
 }
-
-export default GameScene
